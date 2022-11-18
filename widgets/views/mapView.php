@@ -19,7 +19,7 @@ MapAssetBundle::register($this);
     <div class="panel" id="usermap-map-view-snippet">
         
         <div class="panel-heading">
-            <i class="fa fa-map-marker"></i> <span><strong>User</strong> Location Map</span>
+            <i class="fa fa-map-marker"></i> <?= Yii::t('UsermapModule.map', '<span><strong>User</strong> Location Map</span>') ?></span>
             <?= PanelMenu::widget(['id' => 'usermap-map-view-snippet']); ?>
         </div>
         

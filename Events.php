@@ -26,7 +26,7 @@ class Events {
             }
             
             $event->sender->addItem([
-                'label' => 'Usermap',
+                'label' => Yii::t('UsermapModule.map', 'Usermap'),
                 'url' => Url::to(['/usermap/map']),
                 'htmlOptions' => [],
                 'icon' => '<i class="fa fa-map-marker"></i>',
